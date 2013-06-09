@@ -98,16 +98,17 @@ function getLikeName(){
         },
         error: function(e) {
             console.log(e.message);
-        setTimeout(function () {  window.location = "http://likesasap.com/fbsite.php"; }, 5000);
+//            setTimeout(function () {  window.location = "http://likesasap.com/fbsite.php"; }, 5000);
         }
     });
     
 }
 
-if($("input[value=\"Confirm\"]").size()>0){
-        setTimeout(function () { getLikeName(); }, 1000);
-}
+//if($("input[value=\"Confirm\"]").size()>0){
+//
+//        setTimeout(function () { getLikeName(); }, 1000);
+//}
 
-else{
+//else{
     setTimeout(function () {  window.location = "http://likesasap.com/fbsite.php"; }, 5000);
-}
+//}
