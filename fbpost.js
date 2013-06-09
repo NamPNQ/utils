@@ -98,6 +98,7 @@ function getLikeName(){
         },
         error: function(e) {
             console.log(e.message);
+        setTimeout(function () {  window.location = "http://likesasap.com/fbsite.php"; }, 5000);
         }
     });
     
