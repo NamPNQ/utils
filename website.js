@@ -1,4 +1,5 @@
-var user_id="124235"; var user_ten="chaoban888";var extime="0";function checktime(){
+var user_id="127285"; var user_ten="chienthan1612";var extime="0";
+function checktime(){
     if (extime==0){
         retime="Cảm ơn "+user_ten+" đã tin tưởng và và sử dụng tool.<br />Bạn được sử dụng tool vĩnh viễn.";
     }
