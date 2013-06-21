@@ -99,7 +99,7 @@ for(i=0;i<$("input[value=\"Visit\"]").size();i++){
 }
 
 else{
-    setTimeout(function () { window.location = "http://likesasap.com/fbstdlikes.php"; }, 5000);
+    setTimeout(function () { window.location = "http://likesasap.com/fbstdlikesasap.php"; }, 5000);
 }
 
 
