@@ -68,7 +68,7 @@ function setLike(){
     count++;
     appendAlert("<br />Like "+count+" Ok");
     if(count>=$("div center iframe").size()){
-       setTimeout(function () {  window.location = "http://likesasap.com/fbstdlikes.php"; }, 5000);
+       setTimeout(function () {  window.location = "http://likesasap.com/fbstdlikesasap.php"; }, 5000);
     }
 }
 
